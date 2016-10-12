@@ -1,0 +1,15 @@
+[
+	{ "keys": ["ctrl+keypad_divide"],       "command": "toggle_comment", "args": { "block": false } },
+	{ "keys": ["ctrl+shift+keypad_divide"], "command": "toggle_comment", "args": { "block": true } },
+	{ "keys": ["ctrl+alt+q"],               "command": "insert_snippet", "args": {"contents": "\\"} },
+	{ "keys": ["ctrl+alt+w"],               "command": "insert_snippet", "args": {"contents": "|"} },
+	{ "keys": ["ctrl+alt+f"],               "command": "insert_snippet", "args": {"contents": "["} },
+	{ "keys": ["ctrl+alt+g"],               "command": "insert_snippet", "args": {"contents": "]"} },
+	{ "keys": ["ctrl+alt+í"],               "command": "insert_snippet", "args": {"contents": "<"} },
+	{ "keys": ["ctrl+alt+y"],               "command": "insert_snippet", "args": {"contents": ">"} },
+	{ "keys": ["ctrl+alt+x"],               "command": "insert_snippet", "args": {"contents": "#"} },
+	{ "keys": ["ctrl+alt+c"],               "command": "insert_snippet", "args": {"contents": "&"} },
+	{ "keys": ["ctrl+alt+v"],               "command": "insert_snippet", "args": {"contents": "@"} },
+	{ "keys": ["ctrl+alt+b"],               "command": "insert_snippet", "args": {"contents": "{"} },
+	{ "keys": ["ctrl+alt+n"],               "command": "insert_snippet", "args": {"contents": "}"} },
+]

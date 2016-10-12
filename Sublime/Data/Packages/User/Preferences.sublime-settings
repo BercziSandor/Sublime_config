@@ -1,0 +1,25 @@
+{
+	"color_scheme": "Packages/User/SublimeLinter/IDLE (SL).tmTheme",
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"perltidy_options":
+	[
+		"-l=150",
+		"-bar",
+		"-ce",
+		"-ole=unix",
+		"-w",
+		"-nsbl",
+		"-ola",
+		"-okw",
+		"-hsc",
+		"-csc",
+		"-cscw",
+		"-cscp=###",
+		"-sbl",
+		"-wbb=\"+ - / *\""
+	],
+	"reveal-on-activate": true
+}
