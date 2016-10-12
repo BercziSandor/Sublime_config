@@ -1,0 +1,11 @@
+{
+  "selector": "source.perl",
+  "cmd": ["perl", "-c", "$file"],
+
+    "variants": [
+
+        { "name": "Run",
+          "cmd": ["perl", "$file"]
+        }
+    ]
+}
