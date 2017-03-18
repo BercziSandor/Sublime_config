@@ -1,25 +1,44 @@
 {
-	"color_scheme": "Packages/User/SublimeLinter/IDLE (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Cobalt (SL).tmTheme",
+	"env":
+	{
+		"Linux":
+		{
+			"PATH": "$PATH:~/Documents/MyTool"
+		},
+		"Windows":
+		{
+			"PATH": "%PATH%;C:/cygwin64/bin"
+		}
+	},
 	"ignored_packages":
 	[
 		"Vintage"
 	],
+	"perltidy_cmd":
+	[
+		"C:\\cygwin64\\bin\\perl.exe",
+		"/usr/local/bin/perltidy"
+	],
 	"perltidy_options":
 	[
-		"-l=150",
-		"-bar",
-		"-ce",
-		"-ole=unix",
-		"-w",
+		"--maximum-line-length=150",
+		"--opening-brace-always-on-right",
+		"--cuddled-else",
+		"--output-line-ending=unix",
+		"--warning-output",
 		"-nsbl",
-		"-ola",
-		"-okw",
-		"-hsc",
-		"-csc",
-		"-cscw",
-		"-cscp=###",
-		"-sbl",
-		"-wbb=\"+ - / *\""
+		"-nola",
+		"--hanging-side-comments",
+		"--closing-side-comments",
+		"--closing-side-comment-warnings",
+		"--closing-side-comment-prefix=###",
+		"--opening-sub-brace-on-new-line",
+		"--paren-tightness=0",
+		"--want-break-before=\"+ - / *\"",
+		"-se"
 	],
-	"reveal-on-activate": true
+	"reveal-on-activate": true,
+	"spell_check": false,
+	"trim_trailing_white_space_on_save": true
 }
